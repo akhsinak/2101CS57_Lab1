@@ -22,6 +22,9 @@ int main()
     case 2:
         printf("%f - %f = %f", x, y, x - y);
         break;
+    case 3:
+        printf("%f * %f = %f", x, y, x * y);
+        break;
     default:
         break;
     }
