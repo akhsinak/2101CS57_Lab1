@@ -19,6 +19,9 @@ int main()
     case 1:
         printf("%f + %f = %f", x, y, x + y);
         break;
+    case 2:
+        printf("%f - %f = %f", x, y, x - y);
+        break;
     default:
         break;
     }
