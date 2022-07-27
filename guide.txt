@@ -1,0 +1,7 @@
+Just a text file to show the existence of a separate branch other than the master branch.
+
+A Guide to the programs:
+
+simple_calculator.c is a calculator porgram implemented with switch case 
+
+sorter.c is a program code that allows choice of which soting algorithm to use

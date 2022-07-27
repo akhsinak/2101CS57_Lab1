@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 void sort_by_insertion_and_print(int arr[], int n)
 {
     int p, slider, q;
@@ -45,7 +46,7 @@ void sort_by_selection_and_print(int array[], int n)
 
     for (int i = 0; i < n; ++i)
     {
-        printf("%d  ", array[i]);
+        printf("%d ", array[i]);
     }
     printf("\n");
 }
@@ -211,6 +212,7 @@ int main()
 
     switch (status)
     {
+
     case 1:
     {
         sort_by_insertion_and_print(arr, n);
@@ -234,12 +236,17 @@ int main()
         mergesort_and_print(arr, n);
     }
     break;
+
     case 5:
     {
         quicksort_and_print(arr, n);
     }
     break;
+
     default:
-        break;
+    {
+        printf("Enter a valid option from the menu!");
+    }
+    break;
     }
 }
